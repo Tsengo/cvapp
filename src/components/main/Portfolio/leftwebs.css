@@ -1,0 +1,12 @@
+.webs{
+    width: 100%;
+    gap: 30px;
+    justify-content: space-between;
+}
+.webs img{
+    width: 300px;
+    box-shadow: -2px -2px 40px #5151525c;
+}
+.webs a{
+    width: 300px;
+}

@@ -1,0 +1,27 @@
+.resume-wrap{
+    overflow: hidden;
+}
+.Resume{
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 0px 40px 30px 40px;
+    gap: 30px;
+    overflow: hidden;
+}
+.Resume{
+    padding-top: 30px;
+    background-color: #e2e2e2;
+}
+.Resume{
+    background-color: #ffffff;
+}
+.column-wrap {
+    gap: 40px;
+    width: 50%;
+}
+.long-resume{
+    justify-content: space-between;
+}
+
+

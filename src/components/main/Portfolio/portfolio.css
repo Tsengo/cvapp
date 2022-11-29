@@ -1,0 +1,8 @@
+.Portfolio{
+    width: 100%;
+    height: fit-content;
+    padding: 30px 40px 100px 40px;
+    gap: 50px;
+    overflow: hidden;
+    background-color: #e2e2e2 !important;
+}

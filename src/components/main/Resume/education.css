@@ -1,0 +1,20 @@
+.education h2 {
+  color: #4a4a4a;
+}
+.education,
+.list-edu{
+  gap: 20px;
+  padding: 0px 40px 30px 40px;
+}
+.list-edu {
+  gap: 20px;
+  height: 100%;
+  border-left: solid 1px #604be6;
+}
+.un-sum li {
+  font-size: 18px;
+  list-style-type: disc;
+}
+.small-re {
+  padding-left: 20px;
+}

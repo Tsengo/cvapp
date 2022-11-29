@@ -1,0 +1,47 @@
+.About{
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 0px 40px 30px 40px;
+    gap: 30px;
+}
+.About h1{
+    color: #4a4a4a;
+    width: fit-content;
+}
+.about-text-img {
+    width: 100%;
+    gap: 20px;
+    overflow: hidden;
+}
+/* .image {
+    width: 30%;
+    height: 400px;
+    background-image: url(../../../images/somePhoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+} */
+.short-bio{
+    width: 70%;
+    gap: 22px;
+    justify-content: center;
+}
+.short-bio h2{
+    color:#4a4a4a;
+}
+.small-res{
+    justify-content: space-between;
+}
+.small-res ul {
+    gap: 30px;
+}
+.small-res ul li{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-family: quick;
+}

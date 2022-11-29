@@ -1,0 +1,25 @@
+.background-pic {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    background-image: url(../../images/somePic.webp); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    gap: 300px;
+}
+.texts{
+    filter: blur(0.7px);
+    margin: 160px auto;
+    width: fit-content;
+}
+.animation-text ,.name-text{
+    font-size: 60px;
+    text-align: center;
+    color: #f1efef;
+    z-index: 1;
+    font-family: quick;
+}

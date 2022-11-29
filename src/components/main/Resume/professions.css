@@ -1,0 +1,17 @@
+.profession {
+  width: 50%;
+}
+.profession h2 {
+  color: #4a4a4a;
+}
+.profession,
+.list-edu {
+  gap: 20px;
+  padding: 0px 40px 30px 40px;
+}
+.list-edu {
+  gap: 20px;
+  height: 100%;
+  border-left: solid 1px #604be6;
+}
+

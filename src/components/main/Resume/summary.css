@@ -1,0 +1,20 @@
+.summary h2 {
+  color: #4a4a4a;
+}
+.summary,
+.un-sum {
+  gap: 20px;
+  padding: 0px 40px 30px 40px;
+}
+.un-sum {
+  gap: 20px;
+  height: 100%;
+  border-left: solid 1px #604be6;
+}
+.un-sum li {
+  font-size: 18px;
+  list-style-type: none !important;
+}
+.small-re {
+  padding-left: 20px;
+}

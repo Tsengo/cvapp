@@ -3,11 +3,14 @@
     height: 100%;
     position: absolute;
     right: 0px;
-    background-image: url(../../images/somePic.webp); 
-    background-position: center;
+    background-image: url(../../images/somePic.jpg); 
+    background-position-y: -800px;
+    background-position-x: 306px;
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 86%;
     background-attachment: fixed;
+    filter: blur(0.4px);
     z-index: 1;
     gap: 300px;
 }

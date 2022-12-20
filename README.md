@@ -1,3 +1,12 @@
+This is my new challange to create my cv by react 
+
+I used npms to create motions in my cv 
+
+# For beginners how to install react
+ 
+ Frist of all u=you must open terminal and write inside terminal 'npx create-react-app [your project name] '
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className='MainStyle'>
-      <div className='Header'>
+      <div className='header'>
         <PictureSoc />
         <Navigation />
       </div>

@@ -77,6 +77,22 @@ a {
   font-family: "Bigmontseratti";
   color: white;
 }
-/* .MainStyle{
-
-} */
+.header{
+  width: 20% !important;
+}
+.MainStyle{
+  display: flex;
+  flex-direction: row;
+}
+.Backgrounds{
+  width: 80%;
+}
+.burger-menu{
+  width: 50px;
+  height: 50px;
+  background-color: #515152;
+  z-index: 11;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

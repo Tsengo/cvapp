@@ -23,5 +23,15 @@
 .long-resume{
     justify-content: space-between;
 }
+@media only screen and (max-width: 600px) {
+    .long-resume{
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .column-wrap{
+        width: 100% !important;
+    }
 
+}
 

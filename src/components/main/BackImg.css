@@ -3,12 +3,12 @@
     height: 100%;
     position: absolute;
     right: 0px;
-    background-image: url(../../images/somePic.jpg); 
-    background-position-y: -800px;
-    background-position-x: 306px;
+    background-image: url(../../images/somePic1.jpg); 
+    /* background-position-y: -1000px; */
+    /* background-position-x: 300px; */
     /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: 86%;
+    background-size: cover;
     background-attachment: fixed;
     filter: blur(0.4px);
     z-index: 1;
@@ -21,8 +21,18 @@
 }
 .animation-text ,.name-text{
     font-size: 60px;
-    text-align: center;
+    text-align: center !important;
     color: #f1efef;
     z-index: 1;
     font-family: quick;
+}
+@media only screen and (max-width: 990px) {
+    .background-pic{
+        width: 100% !important;
+        z-index: 0;
+        background-position: center;
+    }
+    .animation-text{
+        display: none;
+    }
 }

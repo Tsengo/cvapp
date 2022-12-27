@@ -6,12 +6,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className='MainStyle row'>
-      <div className='header'>
+    <div className='MainStyle'>
+      <div className='Header'>
         <PictureSoc />
         <Navigation />
       </div>
-      <BackImg />
+      <BackImg className="Backgrounds"/>
     </div>
   )
 }

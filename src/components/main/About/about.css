@@ -45,3 +45,18 @@
     align-items: center;
     font-family: quick;
 }
+@media only screen and (max-width: 600px) {
+    .short-bio{
+        width: 100% !important;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .short-bio{
+        width: 100% !important;
+    }
+    .small-res{
+        flex-direction: column !important;
+    }
+
+}

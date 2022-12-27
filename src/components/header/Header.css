@@ -77,4 +77,9 @@ h2{
 .social ul li a:hover {
     background-color: #3e3e9f;
     transition: all 0.1s;
-  }
+}
+@media only screen and (max-width: 990px) {
+    .header{
+        display: none;
+    }
+}

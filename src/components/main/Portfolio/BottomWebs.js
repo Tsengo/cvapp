@@ -9,6 +9,7 @@ import SinglePage from "../../../images/single-page.PNG";
 import Boldo from "../../../images/boldo.PNG";
 import ChatApp from "../../../images/chat-app.PNG";
 import Colloseum from "../../../images/colloseum.PNG";
+import Grill from "../../../images/grill.PNG";
 
 
 const RightSideWebs = () => {
@@ -34,6 +35,9 @@ const RightSideWebs = () => {
             </a>
             <a data-aos="fade-left" href="http://colloseumgymtbilisi.ge/" target="blank_">
                 <img src={Colloseum} alt="/"/>
+            </a>
+            <a data-aos="fade-left" href="https://company-name.pages.dev/" target="blank_">
+                <img src={Grill} alt="/"/>
             </a>
         </div>
     )

@@ -28,11 +28,28 @@
 }
 @media only screen and (max-width: 990px) {
     .background-pic{
-        width: 100% !important;
+        width: 100%;
         z-index: 0;
         background-position: center;
     }
     .animation-text{
         display: none;
     }
+}
+@media only screen and (max-width:414px){
+    .background-pic{
+        background-image: none;
+        gap: 0px;
+    }
+    .name-text{
+        margin-top: -140px;
+    }
+    .animation-text ,.name-text{
+        font-size: 60px;
+        text-align: center !important;
+        color: #1f29e2;
+        z-index: 1;
+        font-family: quick;
+    }
+    
 }

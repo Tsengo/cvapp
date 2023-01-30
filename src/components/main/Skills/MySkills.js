@@ -1,15 +1,10 @@
-import React, {useEffect} from 'react';
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from 'react';
 import "../../../App.css";
 import "./skills.css"
 
 const MySkills = () => {
-    useEffect(() => {
-        Aos.init({duration:2000})
-    })
     return (
-        <div data-aos="fade-up" className='my_skills row'>
+        <div className='my_skills row'>
             <ul className='column'>
                 <li><span className='HTML'></span>HTML</li>
                 <li><span className='CSS'></span>CSS</li>

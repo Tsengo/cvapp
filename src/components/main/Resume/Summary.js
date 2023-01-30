@@ -1,24 +1,20 @@
-import React, {useEffect} from 'react';
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from 'react';
+
 import "../../../App.css";
 import "./resume.css";
 import "./summary.css"
 
 const Summary = () => {
-    useEffect(() => {
-        Aos.init({duration:1400})
-    })
     return (
         <div className="summary column">
-            <h2 data-aos="fade-up">Summary</h2>
+            <h2 >Summary</h2>
             <div >
                 <ul className='un-sum column'>
-                    <h3 data-aos="fade-up">Nika Tsenguashvili</h3>
+                    <h3 >Nika Tsenguashvili</h3>
                     <ul className="small-re">
-                        <li data-aos="fade-up">Tbilisi/Georgia</li>
-                        <li data-aos="fade-up">+995 555 568 831</li>
-                        <li data-aos="fade-up">niktsenguashvili@gmail.com</li>
+                        <li >Tbilisi/Georgia</li>
+                        <li >+995 555 568 831</li>
+                        <li >niktsenguashvili@gmail.com</li>
                     </ul>
                 </ul>
             </div>

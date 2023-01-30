@@ -14,15 +14,6 @@
     gap: 20px;
     overflow: hidden;
 }
-/* .image {
-    width: 30%;
-    height: 400px;
-    background-image: url(../../../images/somePhoto.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #000;
-} */
 .short-bio{
     width: 70%;
     gap: 22px;
@@ -44,6 +35,16 @@
     gap: 10px;
     align-items: center;
     font-family: quick;
+}
+@media only screen and (max-width: 1000px) {
+    .small-res{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .About{
+        padding: 10px;
+        width: 80%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .short-bio{

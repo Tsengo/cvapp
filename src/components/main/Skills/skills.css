@@ -8,11 +8,13 @@
     gap: 30px;
     transition: all 1s ease-in-out;
     overflow: hidden;
+    background-color: #e2e2e2 !important;
+
 }
-.skills.active{
+/* .skills.active{
     transition: all 1.4s ease-in-out;
     background-color: #e2e2e2 !important;
-}
+} */
 .my_skills ul li {
     font-size: 18px;
     display: flex;
@@ -50,4 +52,54 @@
 }
 .VUE{
     background-image: url(../../../images/vue.png)!important;
+}
+@media only screen and (max-width:1000px){
+    .skills{
+        width: 100%;
+        padding: 10px;
+        background-color: #e2e2e2 !important;
+
+    }
+    .my_skills{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .my_skills ul li {
+        font-size: 18px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        font-family: quick;
+    }
+    .my_skills ul li span {
+        width: 20px;
+        height: 100%;
+        background-image: url(../../../images/html.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: 100%;
+    }
+    .my_skills ul{
+        width: 100%;
+        gap: 20px;
+    }
+    .my_skills ul li {
+        font-size: 22px;
+    }
+    .CSS{
+        background-image: url(../../../images/css-3.png)!important;
+    }
+    .PYTHON{
+        background-image: url(../../../images/python.png)!important;
+    }
+    .JAVASCRIPT{
+        background-image: url(../../../images/java-script.png)!important;
+    }
+    .REACT{
+        background-image: url(../../../images/atom.png)!important;
+    }
+    .VUE{
+        background-image: url(../../../images/vue.png)!important;
+    }
 }

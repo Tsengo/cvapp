@@ -6,3 +6,9 @@
     overflow: hidden;
     background-color: #e2e2e2 !important;
 }
+@media only screen and (max-width: 1000px) {
+    .Portfolio{
+        padding: 10px;
+    }
+
+}

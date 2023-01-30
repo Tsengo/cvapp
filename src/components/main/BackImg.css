@@ -4,9 +4,6 @@
     position: absolute;
     right: 0px;
     background-image: url(../../images/somePic1.jpg); 
-    /* background-position-y: -1000px; */
-    /* background-position-x: 300px; */
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -40,12 +37,15 @@
     .background-pic{
         background-image: none;
         gap: 0px;
-        background-position: center;
+        width: 100%;
         z-index: 0;
         filter: none !important;
+        padding: 0px;
     }
     .name-text{
         margin-top: -140px;
+        width: 400px;
+        text-align: center;
     }
     .animation-text ,.name-text{
         font-size: 60px;

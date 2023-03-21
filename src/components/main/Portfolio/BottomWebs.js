@@ -9,6 +9,8 @@ import ChatApp from "../../../images/chat-app.PNG";
 import Colloseum from "../../../images/colloseum.PNG";
 import Grill from "../../../images/grill.PNG";
 import PigGame from "../../../images/Pig-game.PNG";
+import Bank from "../../../images/bank.PNG";
+
 
 
 const RightSideWebs = () => {
@@ -38,6 +40,9 @@ const RightSideWebs = () => {
             </a>
 <a href="https://pig-game-9vs.pages.dev/" target="blank_">
                 <img src={PigGame} alt="/"/>
+            </a>
+<a href="https://sparkly-longma-7606e7.netlify.app/" target="blank_">
+                <img src={Bank} alt="/"/>
             </a>
         </div>
     )

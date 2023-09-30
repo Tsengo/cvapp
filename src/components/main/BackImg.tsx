@@ -4,7 +4,7 @@ import Mainer from "./Main";
 import MainContent from './maincontent/MainContent';
 
 interface BackImgProps {
-    className?: string;
+    className: string;
 }
 
 const BackImg: React.FC<BackImgProps> = ({className}) => {

@@ -1,19 +1,18 @@
 import React from 'react';
 import "../../../App.css";
 import "./resume.css";
-import Summary from './Summary';
-import Education from './Education';
-import Profession from './Professions';
+import Summary from './Summary'; // Update the import path
+import Education from './Education'; // Update the import path
+import Professions from './Professions'; // Update the import path
 
-const Resume = () => {
+const Resume: React.FC = () => {
     return (
         <div className="resume-wrap column" id='ResumeScroll'>
             <div className="Resume column">
-
                 <h1>Resume</h1>
                 <p>
-                    I have a lot of experience to work with team, but in different
-                    professions. I know English(B1) and Russian(A2)
+                    I have a lot of experience working with teams, but in different
+                    professions. I know English (B1) and Russian (A2).
                 </p>
             </div>
             <div className="long-resume row">
@@ -21,9 +20,10 @@ const Resume = () => {
                     <Summary />
                     <Education />
                 </div>
-                <Profession />
+                <Professions />
             </div>
         </div>
     )
 }
+
 export default Resume;

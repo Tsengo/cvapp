@@ -4,14 +4,14 @@ import BackImg from './components/main/BackImg';
 import Navigation from "./components/header/HeaderNav/Navigation";
 import './App.css';
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className='MainStyle'>
       <div className='header'>
         <PictureSoc />
         <Navigation />
       </div>
-      <BackImg className="Backgrounds"/>
+      <BackImg className="Backgrounds" />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./../../App.css";
 
-const BurgerMenu = () => {
+const BurgerMenu:React.FC = () => {
     return (
         <div className="burger-menu">
            
@@ -9,4 +9,4 @@ const BurgerMenu = () => {
     )
 }
 
-export default BurgerMenu();
+export default BurgerMenu;

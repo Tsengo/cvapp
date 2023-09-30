@@ -60,7 +60,7 @@ const websiteData: website[] = [
     image: require("../../../images/fitness-react-typescript-tailwind.PNG"),
   },
 ];
-
+// comments
 const BottomWebs:React.FC = () => {
   return (
     <div className="webs row">

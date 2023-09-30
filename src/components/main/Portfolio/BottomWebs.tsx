@@ -50,14 +50,9 @@ const websiteData: website[] = [
     image: require("../../../images/Pig-game.PNG"),
   },
   {
-    name: "Bank App",
-    url: "https://sparkly-longma-7606e7.netlify.app/",
-    image: require("../../../images/bank.PNG"),
-  },
-  {
     name: "Fitness App",
     url: "https://fitness-react-typescript-tailwind.pages.dev/",
-    image: require("../../../images/fitness-react-typescript-tailwind.PNG"),
+    image: require("../../../images/fitness-react-typscript-tailwind.PNG"),
   },
 ];
 

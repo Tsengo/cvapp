@@ -70,6 +70,12 @@
 .sql {
   background-image: url(../../../images/sql\ server.png) !important;
 }
+.android {
+  background-image: url(../../../images/android.png) !important;
+}
+.kotlin {
+  background-image: url(../../../images/Kotlin.jpg) !important;
+}
 @media only screen and (max-width: 1000px) {
   .skills {
     width: 100%;

@@ -20,18 +20,20 @@ const skillsData: Skill[] = [
   { name: 'MySQL', className: 'mysql' },
   { name: 'SQL Server', className: 'sql' },
   { name: 'PostgreSQL', className: 'nw' },
+  { name: 'Kotlin', className: 'kotlin' },
+  { name: 'Android (Basic)', className: 'android' },
 ];
 
 const MySkills: React.FC = () => {
   return (
     <div className='my_skills row'>
         <ul className='column'>
-        {skillsData.slice(0, 6).map((skill) => (
+        {skillsData.slice(0, (skillsData.length / 2)).map((skill) => (
           <li key={skill.className}><span className={skill.className}></span>{skill.name}</li>
         ))}
       </ul>
       <ul className='column'>
-        {skillsData.slice(6).map((skill) => (
+        {skillsData.slice((skillsData.length / 2)).map((skill) => (
           <li key={skill.className}><span className={skill.className}></span>{skill.name}</li>
         ))}
         </ul>
